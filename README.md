@@ -30,5 +30,10 @@ public static void main(String[] args) {
         }
     }
 }
-
 ```
+
+Function
+```
+distorm3.initDistorm();
+```
+unpack native libraries depending on platform to temp folder, and then load the libraries. That is why you should invoke it before any communication with distorm3.
